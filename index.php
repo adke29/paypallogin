@@ -40,7 +40,7 @@
                 "buttonShape": "rectangle",
                 "buttonSize": "lg",
                 "fullPage": "true",
-                "returnurl": "http://127.0.0.1/success.php"
+                "returnurl": "<?php echo $_ENV['RETURN_URL']?>"
             });
         });
     </script>
