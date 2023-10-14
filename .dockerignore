@@ -1,0 +1,10 @@
+vendor
+composer.phar
+composer.lock
+.git
+build.sh
+infra
+var/cache
+var/log
+.env
+.DS_Store
